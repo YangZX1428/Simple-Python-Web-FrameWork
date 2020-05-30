@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello {{name}}</h1>
+<h1>{{ url_for('static',filename='1.jpg') }}</h1>
+<img src="{{ url_for('static',filename='1.jpg') }}" alt="#">
+<h1>{{session.get("name",None)}}</h1>
+</body>
+</html>
